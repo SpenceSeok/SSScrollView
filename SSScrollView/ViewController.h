@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class SSScrollView;
+
 @interface ViewController : UIViewController
 
+@property(nonatomic, strong) SSScrollView *ssScrollView;
 
 @end
 

@@ -13,6 +13,10 @@
 		F90B84401D18148C00FA6304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90B843E1D18148C00FA6304 /* Main.storyboard */; };
 		F90B84421D18148C00FA6304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90B84411D18148C00FA6304 /* Assets.xcassets */; };
 		F90B84451D18148C00FA6304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90B84431D18148C00FA6304 /* LaunchScreen.storyboard */; };
+		F99FB73B1D193882004412F1 /* 抽奖背面——右卷轴@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F99FB7351D193882004412F1 /* 抽奖背面——右卷轴@2x.png */; };
+		F99FB73C1D193882004412F1 /* 抽奖背面——圣旨纸@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F99FB7361D193882004412F1 /* 抽奖背面——圣旨纸@2x.png */; };
+		F99FB73D1D193882004412F1 /* 抽奖背面——左卷轴@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F99FB7371D193882004412F1 /* 抽奖背面——左卷轴@2x.png */; };
+		F99FB73E1D193882004412F1 /* SSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F99FB73A1D193882004412F1 /* SSScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		F90B84411D18148C00FA6304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F90B84441D18148C00FA6304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F90B84461D18148C00FA6304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99FB7351D193882004412F1 /* 抽奖背面——右卷轴@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽奖背面——右卷轴@2x.png"; sourceTree = "<group>"; };
+		F99FB7361D193882004412F1 /* 抽奖背面——圣旨纸@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽奖背面——圣旨纸@2x.png"; sourceTree = "<group>"; };
+		F99FB7371D193882004412F1 /* 抽奖背面——左卷轴@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽奖背面——左卷轴@2x.png"; sourceTree = "<group>"; };
+		F99FB7391D193882004412F1 /* SSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSScrollView.h; sourceTree = "<group>"; };
+		F99FB73A1D193882004412F1 /* SSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,8 @@
 		F90B84341D18148C00FA6304 /* SSScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				F99FB7341D193882004412F1 /* Images */,
+				F99FB7381D193882004412F1 /* SSScrollView */,
 				F90B84381D18148C00FA6304 /* AppDelegate.h */,
 				F90B84391D18148C00FA6304 /* AppDelegate.m */,
 				F90B843B1D18148C00FA6304 /* ViewController.h */,
@@ -77,6 +88,25 @@
 				F90B84361D18148C00FA6304 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F99FB7341D193882004412F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F99FB7351D193882004412F1 /* 抽奖背面——右卷轴@2x.png */,
+				F99FB7361D193882004412F1 /* 抽奖背面——圣旨纸@2x.png */,
+				F99FB7371D193882004412F1 /* 抽奖背面——左卷轴@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F99FB7381D193882004412F1 /* SSScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F99FB7391D193882004412F1 /* SSScrollView.h */,
+				F99FB73A1D193882004412F1 /* SSScrollView.m */,
+			);
+			path = SSScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +166,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99FB73B1D193882004412F1 /* 抽奖背面——右卷轴@2x.png in Resources */,
 				F90B84451D18148C00FA6304 /* LaunchScreen.storyboard in Resources */,
 				F90B84421D18148C00FA6304 /* Assets.xcassets in Resources */,
+				F99FB73C1D193882004412F1 /* 抽奖背面——圣旨纸@2x.png in Resources */,
 				F90B84401D18148C00FA6304 /* Main.storyboard in Resources */,
+				F99FB73D1D193882004412F1 /* 抽奖背面——左卷轴@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F90B843D1D18148C00FA6304 /* ViewController.m in Sources */,
+				F99FB73E1D193882004412F1 /* SSScrollView.m in Sources */,
 				F90B843A1D18148C00FA6304 /* AppDelegate.m in Sources */,
 				F90B84371D18148C00FA6304 /* main.m in Sources */,
 			);
@@ -264,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cf.SSScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cf.SSScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +336,7 @@
 				F90B844B1D18148C00FA6304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
